@@ -15,7 +15,7 @@ The smaller size is particularly important, because the main goal for this image
 
 # Build images
 ```bash
-./code/build.sh
+./code/scripts/build.sh
 ```
 
 # Usage
