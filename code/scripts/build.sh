@@ -3,4 +3,4 @@
 set -e
 cd $(dirname $0)
 
-docker build -f Dockerfile -t etriphany/ansible .
+docker build -f ../Dockerfile -t etriphany/docker-ansible "$(dirname `pwd`)"
