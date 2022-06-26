@@ -4,7 +4,7 @@ Docker images used to perform **configuration management** using [Ansible Playbo
 
 # Requirements
 
-* [Docker](www.docker.com)
+* [Docker](https://www.docker.com)
 
 # Provided images
 ## etriphany/docker-ansible
@@ -27,5 +27,5 @@ The image `entrypoint` will basically call the `ansible-playbook` passing 2 argu
 
 # Test
 ```bash
-docker run -it --rm -v $(pwd)/code/ansible:/input etriphany/ansible /input/playbook-test.yml localhost
+docker run -it --rm -v $(pwd)/code/ansible:/input etriphany/docker-ansible /input/playbook-test.yml localhost
 ```
